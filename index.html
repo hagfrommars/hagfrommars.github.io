@@ -1,11 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silly Me</title>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Não Sabemos kakaka</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+        <link
+            href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/styles.css">
+        <link rel="stylesheet" href="./src/css/responsive.css">
+
 </head>
+
 <body>
-    
+    <header class="cabecalho">
+        <h1>Oh caralhos oq fazer</h1>
+    </header>
+
+    <main class="personagens-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./src/imagens/seta.png" alt="seta para voltar a imagem anterior">
+        </button>
+
+        <ul class="lista-personagens">
+            <li class="cartao selecionado fundo-1">
+
+                <h2>No início era o caos</h2>
+
+                <img class="imagem-personagem" src="./src/imagens/The Fall of the Rebel Angels' by Pieter Bruegel the Elder, painted in 1562.jpg" alt="caos" />
+
+                <div class="descricao">
+                    <h3 class="titulo">O capetalismo reinava e oprimia a todes</h3>
+                    <p class="texto">
+                        Muito difícil isso aí. Chatão. Altas pressão e as pessoa muito triste poucas ideia horizontes estreitos.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-2">
+                <h2 class="fundo-escuro">Galera tava sad</h2>
+
+                <img class="imagem-inicio" src="./src/imagens/The-Fallen-Angel-Face-Detail.jpg" alt="lucifere" />
+
+                <div class="descricao">
+                    <h3 class="titulo">Observe o zoinho de quem já acordou traíde</h3>
+                    <p class="texto" style="font-family:'Outfit'">
+                        Pique fiz meu café-da-manhã chorando (eu ontem). Luci tava malzão.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-3">
+                <h2>Aí a bicha atinou</h2>
+
+                <img class="imagem-inicio" src="./src/imagens/silly-thingie.jpg" alt="bisso" />
+
+                <div class="descricao">
+                    <h3 class="titulo">Querido Diário: Pensando aqui...</h3>
+                    <p class="texto">
+                        (ainda esperando bater o misto quente nas ideia, calma)
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-4">
+                <h2 class="fundo-escuro">Estou tão sozin</h2>
+
+                <img class="imagem-personagem" src="./src/imagens/kuro-girokuro.jpg" alt="kurozinho"/>
+
+                <div class="descricao">
+                    <h3 class="titulo">Eu e minha anteninha</h3>
+                    <p class="texto">
+                        Acho que preciso de um social.
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-5">
+                <h2>Ovo cola cos brother</h2>
+
+                <img class="imagem-personagem" src="./src/imagens/hug.jpg" alt="brotherhood" />
+
+                <div class="descricao">
+                    <h3 class="titulo">Foi lá e colou</h3>
+                    <p class="texto">
+                        Ele, seu chapéu de anteninha e seu superpoder de ficar <strong>muito</strong> pertinho :3
+                    </p>
+                </div>
+            </li>
+            <li class="cartao fundo-6">
+                <h2>E concluiu que é isso aí</h2>
+
+                <image src="./src/animation/kuro-chan.gif"/>
+
+                <div class="descricao">
+                    <h3 class="titulo">O ronron é o poder</h3>
+                    <p class="texto" style="font-family:VT323; color:rgb(138, 37, 231); font-size: 15px;">
+                        E nois tem mesmo é que se unir pra não perder a cabecinha uwu viva o poder do amor etc
+                    </p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/imagens/seta.png" alt="seta para avançar a imagem">
+        </button>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+
 </body>
+
 </html>
